@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    color: white;
+}
+
+header {
+    background-image: url(img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.card1 {
+    background-color: #222222;
+}
+
+.card2 {
+    background-color: #101010;
+}
+
+.card3 {
+    background-color: #222222;
+}
+
+.card4 {
+    background-color: #101010;
+}
+
+table {
+    color: #9c9c9c;
+}
