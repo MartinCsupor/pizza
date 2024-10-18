@@ -13,16 +13,78 @@ header {
 
 .card1 {
     background-color: #222222;
+    margin: 0;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.bal1 {
+    text-align: right;
+    width: 40%;
+    padding: 10px;
+}
+
+.jobb1 {
+    text-align: left;
+    width: 60%;
+    padding: 10px;
+}
+
+.card1 p {
+    width: 70%;
 }
 
 .card2 {
+    width: 100%;
+    margin: 0;
     background-color: #101010;
+    text-align: center;
+    padding: 40px;
+    list-style-type: none;
+}
+
+.card2 ul {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    list-style-type:none;
+}
+
+.card2 li {
+    border: 1px solid white;
+    padding: 10px 50px;
+}
+
+.card2 p {
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .card3 {
+    margin: 0;
     background-color: #222222;
+ 
 }
 
 .card4 {
+    margin: 0;
     background-color: #101010;
+}
+
+.navbar {
+    padding: 30px 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#keret {
+    width: 100%;
+    margin: 0;
+}
+
+img {
+    max-width: 500px;
 }
