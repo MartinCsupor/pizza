@@ -41,18 +41,18 @@ header {
     background-color: #101010;
     text-align: center;
     padding: 40px;
-    list-style-type: none;
 }
 
 .card2 ul {
     justify-content: center;
+    list-style-type: none;
     display: flex;
-    gap: 1rem;
     list-style-type:none;
 }
 
 .card2 li {
     border: 1px solid white;
+    margin: 20px;
     padding: 10px 50px;
 }
 
@@ -62,14 +62,17 @@ header {
 }
 
 .card3 {
+    margin-top: 25px;
     margin: 0;
     background-color: #222222;
- 
+    text-align: center;
 }
 
 .card4 {
     margin: 0;
     background-color: #101010;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
@@ -85,6 +88,100 @@ header {
     margin: 0;
 }
 
-img {
-    max-width: 500px;
+.kepek {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ 
+.baloszlop {
+    margin: 0;
+    width: auto;
+    padding: 25px;
+    flex-direction: column;
+}
+ 
+.sor {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+ 
+.nagykep {
+    width: 750px;
+}
+ 
+.kiskep {
+    width: 350px;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+.jobboszlop {
+    margin: 0;
+    width: auto;
+    padding-top: 25px;
+}
+ 
+.magaskep {
+    height: 625px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+.kicsikep {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+.szoveg {
+    position: relative;
+    top: -25px;
+    left:  50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+}
+ 
+ 
+.nyitvatartas {
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+ 
+footer {
+    background-color: #101010;
+}
+ 
+@media only screen and (max-width: 1000px){
+    .sor, .baloszlop, .jobboszlop {
+        display: inline;
+    }
+    .kiskep {
+        width: 450px;
+    }
+}
+ 
+ 
+@media only screen and (max-width: 600px) {
+    .bal1, .jobb1{
+        width: 100%;
+    }
+    .card1 {
+        display: block;
+    }
+    .card1 p {
+        width: 100%;
+    }
+    .card2 ul {
+        display: block;
+    }
 }
