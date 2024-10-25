@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     color: white;
@@ -35,6 +36,10 @@ header {
     width: 70%;
 }
 
+.card1 a {
+    color: red;
+}
+
 .card2 {
     width: 100%;
     margin: 0;
@@ -69,10 +74,30 @@ header {
 }
 
 .card4 {
+    padding-top: 50px;
     margin: 0;
     background-color: #101010;
     display: flex;
     justify-content: center;
+}
+
+.card4 a {
+    color: white;
+    font-weight: bold;
+}
+
+.szeretet{
+    text-align: right;
+    width: 25%;
+}
+
+.foglal {
+    width: 25%;
+}
+
+.nyitvatartas {
+    padding:  0px 50px;
+    width: 400px;
 }
 
 .navbar {
@@ -149,18 +174,23 @@ header {
     font-size: larger;
 }
  
- 
-.nyitvatartas {
-    margin: 0px 70px;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-}
- 
 footer {
     background-color: #101010;
+    margin: 0;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
 }
- 
+
+footer hr {
+    padding: 2%;
+}
+
+.footerala {
+    text-decoration: underline;
+}
+
+
 @media only screen and (max-width: 1000px){
     .sor, .baloszlop, .jobboszlop {
         display: inline;
