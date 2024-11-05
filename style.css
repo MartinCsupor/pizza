@@ -67,10 +67,14 @@ header {
 }
 
 .card3 {
-    margin-top: 25px;
+    padding-top: 50px;
     margin: 0;
     background-color: #222222;
     text-align: center;
+}
+
+.card3alcim {
+    color: #a9a9a9;
 }
 
 .card4 {
@@ -138,7 +142,7 @@ header {
 .nagykep {
     width: 750px;
 }
- 
+
 .kiskep {
     width: 350px;
     height: 340px;
@@ -213,5 +217,11 @@ footer hr {
     }
     .card2 ul {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .slash {
+        display: none;
     }
 }
