@@ -78,7 +78,7 @@ header {
 }
 
 .card4 {
-    padding-top: 50px;
+    padding: 50px 175px;
     margin: 0;
     background-color: #101010;
     display: flex;
@@ -92,7 +92,6 @@ header {
 
 .szeretet{
     text-align: right;
-    width: 25%;
 }
 
 .foglal {
@@ -102,6 +101,17 @@ header {
 .nyitvatartas {
     padding:  0px 50px;
     width: 400px;
+}
+.nyitvatartas p {
+    margin: 0px;
+}
+
+.nyitvatartas hr {
+    margin: 5px;
+}
+
+.nyitvatartas h4 {
+    margin-bottom: 40px;
 }
 
 .navbar {
@@ -119,33 +129,34 @@ header {
 
 .kepek {
     margin: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
 }
  
 .baloszlop {
     margin: 0;
     width: auto;
-    padding: 25px;
+    padding: 20px;
     flex-direction: column;
 }
  
 .sor {
     display: flex;
     height: auto;
-    justify-content: space-between;
+    gap: 35px;
 }
  
 .nagykep {
-    width: 750px;
+    width: 510px;
 }
 
 .kiskep {
-    width: 350px;
-    height: 340px;
+    width: 235px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
@@ -153,35 +164,35 @@ header {
 .jobboszlop {
     margin: 0;
     width: auto;
-    padding-top: 25px;
+    padding-top: 10px 
 }
  
 .magaskep {
-    height: 625px;
-    width: 300px;
+    height: 420px;
+    width: 250px;
     object-fit: cover;
     object-position: center;
 }
  
 .kicsikep {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 175px;
     object-fit: cover;
     object-position: center;
 }
  
 .szoveg {
     position: relative;
-    top: -25px;
+    top: -15px;
     left:  50%;
     transform: translate(-50%, -50%);
-    font-size: larger;
+    font-size: small;
 }
  
 footer {
     background-color: #101010;
     margin: 0;
-    padding: 40px;
+    padding: 40px 175px;
     width: 100%;
     text-align: center;
 }
@@ -223,5 +234,21 @@ footer hr {
 @media only screen and (max-width: 991px) {
     .slash {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .kepek {
+        flex-direction: column;
+        width: 550px;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+    .kepek img {
+        width: 500px;
+        height: 300px;
+        margin: 5;
+        padding: 0;
     }
 }
