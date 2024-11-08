@@ -82,7 +82,7 @@ header {
     margin: 0;
     background-color: #101010;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly
 }
 
 .card4 a {
@@ -92,10 +92,6 @@ header {
 
 .szeretet{
     text-align: right;
-}
-
-.foglal {
-    width: 25%;
 }
 
 .nyitvatartas {
@@ -205,16 +201,6 @@ footer hr {
     text-decoration: underline;
 }
 
-
-@media only screen and (max-width: 1000px){
-    .sor, .baloszlop, .jobboszlop {
-        display: inline;
-    }
-    .kiskep {
-        width: 450px;
-    }
-}
- 
  
 @media only screen and (max-width: 600px) {
     .bal1, .jobb1{
@@ -237,18 +223,42 @@ footer hr {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:867px) {
+    .jobb1,.baloszlop {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 826px) {
     .kepek {
         flex-direction: column;
-        width: 550px;
         margin: 0;
         padding: 0;
+        gap: 0;
+        width: auto;
+    }
+    .baloszlop{
+        flex-direction: column;
+    }
+    .jobboszlop{
+        padding: 0px;
+    }
+    .sor {
+        flex-direction: column;
         gap: 0;
     }
     .kepek img {
         width: 500px;
-        height: 300px;
-        margin: 5;
+        height: auto;
+        margin: 0;
         padding: 0;
     }
+    .kepek .magaskep {
+        height: 500px;
+    }
+    .kepek .kicsikep {
+        height: 50%;
+    }
 }
+
