@@ -32,7 +32,7 @@ header {
     padding: 10px;
 }
 
-.card1 p {
+.card1 p{
     width: 70%;
 }
 
@@ -62,8 +62,8 @@ header {
 }
 
 .card2 p {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .card3 {
@@ -78,11 +78,21 @@ header {
 }
 
 .card4 {
-    padding: 50px 175px;
+    padding-top: 50px;
     margin: 0;
     background-color: #101010;
     display: flex;
-    justify-content: space-evenly
+    justify-content: center;
+}
+
+.card4keret {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.card4foglal {
+    width: 35%;
 }
 
 .card4 a {
@@ -92,11 +102,12 @@ header {
 
 .szeretet{
     text-align: right;
+    width: 20%;
 }
 
 .nyitvatartas {
     padding:  0px 50px;
-    width: 400px;
+    width: 60%;
 }
 .nyitvatartas p {
     margin: 0px;
@@ -194,7 +205,7 @@ footer {
 }
 
 footer hr {
-    padding: 2%;
+    margin: 20px 20%;
 }
 
 .footerala {
@@ -215,16 +226,37 @@ footer hr {
     .card2 ul {
         display: block;
     }
+    .card4keret {
+        display: block;
+    }
+    .szeretet {
+        width: 100%;
+    }
+    .nyitvatartas {
+        width: 100%;
+    }
+    .card4foglal {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 991px) {
     .slash {
         display: none;
     }
+    .card1 p{
+        width: 100%;
+    }
+    .card2 p {
+        margin: 0;
+    }
+    .card4keret {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width:867px) {
-    .jobb1,.baloszlop {
+    .jobboszlop,.baloszlop {
         padding: 0;
         margin: 0;
     }
@@ -249,7 +281,7 @@ footer hr {
         gap: 0;
     }
     .kepek img {
-        width: 500px;
+        width: 90%;
         height: auto;
         margin: 0;
         padding: 0;
@@ -258,7 +290,7 @@ footer hr {
         height: 500px;
     }
     .kepek .kicsikep {
-        height: 50%;
+        height: 250px;
     }
 }
 
