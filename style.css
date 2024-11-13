@@ -32,12 +32,17 @@ header {
     padding: 10px;
 }
 
+.jobb1szin {
+    color: #cbcbcb;
+}
+
 .card1 p{
     width: 70%;
 }
 
 .card1 a {
-    color: red;
+    color: #acacac;
+    text-decoration: none
 }
 
 .card2 {
@@ -212,6 +217,13 @@ footer hr {
     text-decoration: underline;
 }
 
+.focim {
+    font-family: sans-serif;
+}
+
+.alcim {
+    font-family: 'Courier New', Courier, monospace;
+}
  
 @media only screen and (max-width: 600px) {
     .bal1, .jobb1{
@@ -231,12 +243,18 @@ footer hr {
     }
     .szeretet {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .nyitvatartas {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .card4foglal {
         width: 100%;
+        margin: 0;
+        padding: 25px 0px;
     }
 }
 
