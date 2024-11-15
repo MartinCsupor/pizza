@@ -58,6 +58,7 @@ header {
     list-style-type: none;
     display: flex;
     list-style-type:none;
+    padding: 0;
 }
 
 .card2 li {
@@ -221,10 +222,23 @@ footer hr {
     font-family: sans-serif;
 }
 
-.alcim {
-    font-family: 'Courier New', Courier, monospace;
+.card2alcim {
+    color: #a9a9a9;
+    text-decoration: none;
 }
- 
+
+.slabo-27px-regular {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+.szoveg {
+    font-style: italic;
+}
+  
+
 @media only screen and (max-width: 600px) {
     .bal1, .jobb1{
         width: 100%;
