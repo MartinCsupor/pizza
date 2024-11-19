@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     color: white;
@@ -18,6 +17,10 @@ header {
     padding: 40px;
     width: 100%;
     display: flex;
+}
+
+.foglal {
+    font-weight: bold;
 }
 
 .bal1 {
@@ -70,6 +73,7 @@ header {
 .card2 p {
     margin-left: 20%;
     margin-right: 20%;
+    color: rgb(203, 203, 203);
 }
 
 .card3 {
@@ -94,11 +98,15 @@ header {
 .card4keret {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 60%; 
 }
 
 .card4foglal {
     width: 35%;
+}
+
+.card4foglal p{
+    color: rgb(203, 203, 203);
 }
 
 .card4 a {
@@ -117,6 +125,7 @@ header {
 }
 .nyitvatartas p {
     margin: 0px;
+    color: rgb(203, 203, 203);
 }
 
 .nyitvatartas hr {
@@ -208,11 +217,14 @@ footer {
     padding: 40px 175px;
     width: 100%;
     text-align: center;
+    color: rgb(203, 203, 203);
 }
 
 footer hr {
     margin: 20px 20%;
 }
+
+footer p {font-size: small;}
 
 .footerala {
     text-decoration: underline;
@@ -325,4 +337,3 @@ footer hr {
         height: 250px;
     }
 }
-
