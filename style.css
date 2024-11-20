@@ -6,7 +6,7 @@ body {
 header {
     background-image: url(img/pizza.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     height: 400px;
 }
@@ -27,6 +27,15 @@ header {
     text-align: right;
     width: 40%;
     padding: 10px;
+}
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: small;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
 }
 
 .jobb1 {
@@ -57,10 +66,9 @@ header {
 }
 
 .card2 ul {
+    display: flex;
     justify-content: center;
     list-style-type: none;
-    display: flex;
-    list-style-type:none;
     padding: 0;
 }
 
@@ -263,6 +271,8 @@ footer p {font-size: small;}
     }
     .card2 ul {
         display: block;
+        margin: 0px auto;
+        max-width: 200px;
     }
     .card4keret {
         display: block;
@@ -270,7 +280,7 @@ footer p {font-size: small;}
     .szeretet {
         width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 15px 0px;
     }
     .nyitvatartas {
         width: 100%;
@@ -331,9 +341,9 @@ footer p {font-size: small;}
         padding: 0;
     }
     .kepek .magaskep {
-        height: 500px;
+        height: 450px;
     }
     .kepek .kicsikep {
-        height: 250px;
+        height: 200px;
     }
 }
