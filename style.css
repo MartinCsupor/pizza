@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+h3 {
+    font-family: 'Metropolis', sans-serif;
+}
+
 header {
     background-image: url(img/pizza.jpg);
     background-repeat: no-repeat;
@@ -39,6 +43,18 @@ header {
   font-variation-settings:"wdth" 100;
 }
 
+.pt-serif {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .jobb1 {
     text-align: left;
     width: 60%;
@@ -51,6 +67,7 @@ header {
 
 .card1 p{
     width: 70%;
+    font-family: 'Metropolis', sans-serif;
 }
 
 .card1 a {
@@ -82,7 +99,9 @@ header {
 .card2 p {
     margin-left: 20%;
     margin-right: 20%;
+    padding: 20px;
     color: rgb(203, 203, 203);
+    font-family: 'Metropolis', sans-serif;
 }
 
 .card3 {
@@ -102,6 +121,7 @@ header {
     background-color: #101010;
     display: flex;
     justify-content: center;
+    font-family: 'Metropolis', sans-serif;
 }
 
 .card4keret {
@@ -131,7 +151,9 @@ header {
 .nyitvatartas {
     padding:  0px 50px;
     width: 60%;
+    font-weight: 500;
 }
+
 .nyitvatartas p {
     margin: 0px;
     color: rgb(203, 203, 203);
@@ -231,30 +253,31 @@ header {
     top: -15px;
     left:  50%;
     transform: translate(-50%, -50%);
-    font-size: small;
+    font-size: medium;
+    font-style: italic;
 }
  
 footer {
     background-color: #101010;
     margin: 0;
-    padding: 40px 175px;
+    padding: 20px 175px;
     width: 100%;
     text-align: center;
     color: rgb(203, 203, 203);
+    font-family: 'Metropolis', sans-serif;
 }
 
 footer hr {
-    margin: 20px 20%;
+    margin: 20px 10%;
 }
 
-footer p {font-size: small;}
+footer p {
+    font-size: small;
+    font-weight: 500;
+}
 
 .footerala {
     text-decoration: underline;
-}
-
-.focim {
-    font-family: sans-serif;
 }
 
 .card2alcim {
@@ -306,6 +329,10 @@ footer p {font-size: small;}
         width: 100%;
         margin: 0;
         padding: 25px 0px;
+    }
+    .nyitvatartas p {
+        display: inline-block;
+        text-align: right;
     }
 }
 
