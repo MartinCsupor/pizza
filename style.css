@@ -12,8 +12,8 @@ header {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    height: 400px;
-    animation: alternate-reverse;
+    height: 600px;
+    box-shadow: inset 0px 135px 58px -33px rgba(0,0,0,0.69);
 }
 
 .card1 {
@@ -175,6 +175,10 @@ header {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
+.masod {
+    color: rgba(255, 255, 255, 0.8) !important;
+} 
+
 #keret {
     width: 100%;
     margin: 0;
@@ -332,9 +336,15 @@ footer p {
     }
     .nyitvatartas p {
         display: inline-block;
-        text-align: right;
+    }
+    .nyitvajobb {
+        float: right;
+    }
+    header {
+        height: 100px;
     }
 }
+
 
 @media only screen and (max-width: 991px) {
     .slash {
@@ -355,6 +365,9 @@ footer p {
     .jobboszlop,.baloszlop {
         padding: 0;
         margin: 0;
+    }
+    header {
+        height: 450px;
     }
 }
 
