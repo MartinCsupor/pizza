@@ -95,9 +95,23 @@ header {
 }
 
 .card2 li {
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.7);
     margin: 20px;
     padding: 10px 50px;
+}
+
+@keyframes szinvalt  {
+    from {
+        border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    to {
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+
+.card2 li:hover {
+    cursor: pointer;
+    animation:  szinvalt 0.3s ease-in both;
 }
 
 .card2 p {
@@ -197,6 +211,19 @@ header {
     flex-wrap: wrap;
     gap: 25px;
 }
+
+@keyframes nagyit {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.08);
+    }
+  }
+
+.arnyek:hover {
+    animation: nagyit 0.2s ease-in both;
+}
  
 .baloszlop {
     margin: 0;
@@ -285,7 +312,7 @@ footer p {
 }
 
 .footerala {
-    text-decoration: underline;
+    color: #a9a9a9;
 }
 
 .card2alcim {
@@ -303,7 +330,7 @@ footer p {
 .szoveg {
     font-style: italic;
 }
-  
+
 
 @media only screen and (max-width: 600px) {
     .bal1, .jobb1{
