@@ -95,23 +95,14 @@ header {
 }
 
 .card2 li {
-    border: 1px solid rgba(255, 255, 255, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     margin: 20px;
     padding: 10px 50px;
+    transition: border 0.6s ease-in-out; 
 }
 
-@keyframes szinvalt  {
-    from {
-        border: 1px solid rgba(255, 255, 255, 0.7);
-    }
-    to {
-        border: 1px solid rgba(255, 255, 255, 1);
-    }
-  }
-
 .card2 li:hover {
-    cursor: pointer;
-    animation:  szinvalt 0.3s ease-in both;
+    border: 2px solid rgba(255, 255, 255, 1);
 }
 
 .card2 p {
@@ -194,8 +185,13 @@ header {
 }
 
 .masod {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    transition: color 0.5s ease-in-out; 
 } 
+
+.masod:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
 
 #keret {
     width: 100%;
@@ -212,18 +208,6 @@ header {
     gap: 25px;
 }
 
-@keyframes nagyit {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.08);
-    }
-  }
-
-.arnyek:hover {
-    animation: nagyit 0.2s ease-in both;
-}
  
 .baloszlop {
     margin: 0;
@@ -244,6 +228,9 @@ header {
 
 .arnyek {
     position: relative;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out; 
+
     
     &:before {
       content: ' ';
@@ -253,6 +240,10 @@ header {
       z-index: 1;
       box-shadow: inset 0px -25px 35px -5px black;
     }
+}
+
+.arnyek:hover {
+    transform: scale(1.08);
 }
 
 .kiskep {
